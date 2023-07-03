@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Quiz WebApp</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  </head>
+  <body class="bg-primary">
+    <div class="container vh-100 bg-primary d-grid" style="place-items: center;">
+      <h1 class="text-white">JavaScript Quiz</h1>
+        <div id="quizBox" class="bg-white card border-dark p-3">
+            <h4 id="question">Your questions are being ready!...</h4>
+            <div class="form-check pt-3 fw-bold">
+                <input class="form-check-input border-dark d-none" type="radio" name="options" id="optionA" value="a">
+                <label class="form-check-label" for="optionA"></label>
+              </div>
+            <div class="form-check pt-3 fw-bold">
+                <input class="form-check-input border-dark d-none" type="radio" name="options" id="optionB" value="b">
+                <label class="form-check-label" for="optionB"></label>
+              </div>
+            <div class="form-check pt-3 fw-bold">
+                <input class="form-check-input border-dark d-none" type="radio" name="options" id="optionC" value="c">
+                <label class="form-check-label" for="optionC"></label>
+              </div>
+            <div class="form-check pt-3 fw-bold">
+                <input class="form-check-input border-dark d-none" type="radio" name="options" id="optionD" value="d">
+                <label class="form-check-label" for="optionD"></label>
+              </div>
+              <div class="d-grid pt-4">
+                <button class="btn btn-primary d-none" type="button" id="submit">Submit</button>
+              </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
